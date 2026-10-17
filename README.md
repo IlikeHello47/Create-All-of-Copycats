@@ -1,25 +1,19 @@
+# Create: All of Copycats
 
-Installation information
-=======
+A Create Mod addon adding way more Copycat blocks to Minecraft 26.1.2.
+Built on NeoForge using Java 25.
 
-This template repository can be directly cloned to get you started with a new
-mod. Simply create a new repository cloned from this one, by following the
-instructions provided by [GitHub](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template).
+## Features
+* Way more Copycat block variants for building and factory decoration
+* Designed to work with the new Vulkan/Flywheel rendering backend
 
-Once you have your clone, simply open the repository in the IDE of your choice. The usual recommendation for an IDE is either IntelliJ IDEA or Eclipse.
+## Setup
+1. Clone the repo
+2. Import it into IntelliJ IDEA as a Gradle project
+3. Let Gradle finish the background sync and download the dependencies
+4. Launch the client via the `runClient` run configuration in IntelliJ
 
-If at any point you are missing libraries in your IDE, or you've run into problems you can
-run `gradlew --refresh-dependencies` to refresh the local cache. `gradlew clean` to reset everything 
-{this does not affect your code} and then start the process again.
-
-Mapping Names:
-============
-By default, the MDK is configured to use the official mapping names from Mojang for methods and fields 
-in the Minecraft codebase. These names are covered by a specific license. All modders should be aware of this
-license. For the latest license text, refer to the mapping file itself, or the reference copy here:
-https://github.com/NeoForged/NeoForm/blob/main/Mojang.md
-
-Additional Resources: 
-==========
-Community Documentation: https://docs.neoforged.net/  
-NeoForged Discord: https://discord.neoforged.net/
+## License & Credits
+* Code is under MIT License.
+* Credits to the Create Mod team and Engine Room (Flywheel).
+* This is an unofficial fan project and not affiliated with Mojang or the Create team.
